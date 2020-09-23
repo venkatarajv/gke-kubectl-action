@@ -29,4 +29,4 @@ gcloud container clusters get-credentials "$CLUSTER_NAME" --zone "$ZONE_NAME" --
 kubectl config current-context
 
 #sh -c "kubectl $*"
-sh -c "./deploy.sh"
+sh -c " $* "
